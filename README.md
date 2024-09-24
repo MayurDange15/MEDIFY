@@ -55,8 +55,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/medify.git
-   cd medify
+   git clone https://github.com/MayurDange15/MEDIFY.git
+   cd MEDIFY
    ```
 
 2. Install dependencies:
@@ -75,7 +75,7 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-The application is deployed on Vercel. You can access it here.
+The application is deployed on Vercel. You can access it [here](https://medify-kappa-one.vercel.app/).
 
 ## Usage
 
@@ -91,4 +91,4 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ## Contact
 
-For any questions or suggestions, please contact Mayur[].
+For any questions or suggestions, please contact [Mayur](mailto:mayurdange15081996@gmail.com).
