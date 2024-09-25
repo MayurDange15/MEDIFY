@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Search from "./Search/Search";
+import MyBookings from "./MyBookings/MyBookings";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home/Home";
 import { createTheme, ThemeProvider } from "@mui/material";
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "search",
         element: <Search />,
+      },
+      {
+        path: "my-bookings",
+        element: <MyBookings />,
       },
       {
         path: "/",
