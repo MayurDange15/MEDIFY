@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Search from "./Search/Search";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home/Home";
 import { createTheme, ThemeProvider } from "@mui/material";
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "search",
+        element: <Search />,
+      },
       {
         path: "/",
         element: <Home />,
